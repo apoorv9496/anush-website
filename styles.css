@@ -1,0 +1,77 @@
+/* Load Custom Font */
+@font-face {
+  font-family: "DrukWideBold";
+  src: url("DrukWideBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Apply Custom Font to Everything */
+body {
+  background-color: black;
+  color: white;
+  font-family: "DrukWideBold", sans-serif; /* Apply to all text */
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  max-width: 400px;
+  padding: 10px;
+}
+
+/* Main title (still centered) */
+.title {
+  font-size: 4em;
+  font-weight: 900;
+  margin: 0;
+  text-align: left;
+}
+
+/* Content block (right-aligned) */
+.content {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+/* Subtext */
+.subtext {
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+/* Social media handle */
+.handle {
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-top: 25px;
+}
+
+/* Social media links */
+.links {
+  margin-top: 8px;
+}
+
+.links a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: lowercase;
+  margin-top: 5px;
+  text-align: right;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
