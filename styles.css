@@ -39,12 +39,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 /* Subtext */
 .subtext {
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 600;
   line-height: 1.6;
 }
@@ -53,22 +53,22 @@ body {
 .handle {
   font-size: 1.2em;
   font-weight: 800;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 /* Social media links */
 .links {
-  margin-top: 8px;
+  margin-top: 0px;
 }
 
 .links a {
   display: block;
   color: white;
-  text-decoration: none;
+  text-decoration: underline; /* Always show underline */
   font-weight: 700;
-  font-size: 1em;
+  font-size: 0.8em;
   text-transform: lowercase;
-  margin-top: 5px;
+  margin-top: 0px;
   text-align: right;
 }
 
